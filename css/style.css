@@ -1,0 +1,53 @@
+/*   contact us --- section  */
+
+.btn-c1 {
+    border-color: #fafafa !important;
+    background: transparent!important;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-c1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #5c005e;
+    transition: left 0.5s;
+    z-index: -1;
+}
+
+.btn-c1:hover::before {
+    left: 0;
+}
+
+.order-last {
+    background: linear-gradient(to bottom, rgba(14, 0, 11, 0.5), rgba(0, 6, 1, 0.9)), url('../img/pos-software.jpg');
+    background-size: cover;
+}
+
+.btn-c2 {
+    color: #fafafa !important;
+    background-color: #5c005e!important;
+    border-style: none!important;
+}
+
+.btn-c2:hover {
+    background-color: #000000!important;
+    border-style: none !important;
+}
+
+/*  About us --- section  */
+
+.container-fluid-color {
+    background: linear-gradient(rgba(7, 0, 7, 0.5), rgba(0, 10, 1, 1)), url('../img/free-pos-billing-software.jpg');
+    background-size: cover;
+}
+
+/* .padding-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
